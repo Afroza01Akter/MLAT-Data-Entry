@@ -1,0 +1,19 @@
+.charts__content {
+    width: 900px;
+    background: white;
+    box-shadow: 5px 5px 24px -1px #d1caca;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 30px;
+}
+.charts {
+    
+    display: flex;
+}
+#charts__content{
+    width: 600px;
+}
+.test {
+    width: 75%;
+    margin: 72px auto;
+}

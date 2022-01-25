@@ -1,0 +1,79 @@
+.topnav__content {
+  text-align: right;
+  margin-right: 32px;
+  padding-top: 10px;
+}
+.topnav {
+  background: #f3fdf7;
+  height: 51px;
+}
+.modal::before {
+  position: absolute;
+  content: "";
+  background: aqua;
+  width: 20px;
+  height: 20px;
+  right: 0px;
+}
+.modal {
+  width: 9.5%;
+  position: absolute;
+  right: 17px;
+  background: #fdfffe;
+  text-align: left;
+  /* padding: 14px; */
+  top: 50px;
+  box-shadow: 5px 5px 24px 2px #aaaaaa;
+  border-radius: 5px;
+}
+button.topnav__content--btn i {
+  font-size: 32px;
+}
+button.topnav__content--btn {
+  border: none;
+  background: none;
+}
+.modal::before {
+  position: absolute;
+  content: "";
+  background: #fdfffe;
+  width: 20px;
+  height: 28px;
+  right: 18px;
+  top: 1px;
+  transform: skew(43deg, -43deg);
+}
+.modal-head {
+    padding: 10px;
+}
+.modal-head p {
+    font-size: 13px;
+    color: #8d8a8a;
+    font-weight: 500;
+}
+.modal-head h4 {
+    font-size: 14px;
+}
+.modal-body ul li i {
+    padding-right: 9px;
+    font-size: 20px;
+}
+.modal-body ul li {
+    font-size: 16px;
+    line-height: 27px;
+}
+.modal-body {
+    padding: 10px;
+}
+.modal-footer button {
+    width: 100%;
+    background: none;
+    border: 1px solid #c9c7c7;
+    font-size: 15px;
+    padding: 4px;
+    border-radius: 5px;
+    margin-bottom: 7px;
+}
+.modal-footer {
+    padding: 10px;
+}

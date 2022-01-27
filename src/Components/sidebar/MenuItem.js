@@ -2,35 +2,36 @@ import React from 'react';
 import "./SideBar.css";
 import { NavLink } from 'react-router-dom';
 
-const MenuItem = () => {
+const MenuItem = (props) => {
+  const {name, iconName, to} = props;
   return <div>
        <ul>
             <li>
-              <NavLink to="/" className="side-menu__main-menu--menu-item">
+              <NavLink to={to} className="side-menu__main-menu--menu-item">
               <div className="side-menu__main-menu--menu-item__menu-icon">
-              <i className="bi bi-speedometer2"></i>
+              <i className={iconName}></i>
               </div>
-              <span>DashBoard</span>
+              <span>{name}</span>
+              </NavLink>
+            </li>
+
+            {/* <li>
+              <NavLink to="/main/datainsert" className="side-menu__main-menu--menu-item">
+              <div className="side-menu__main-menu--menu-item__menu-icon">
+              <i class="bi bi-pie-chart"></i>
+              </div>
+              <span>Data Insert</span>
               </NavLink>
             </li>
 
             <li>
-              <NavLink to="registration" className="side-menu__main-menu--menu-item">
+              <NavLink to="/main/dataview" className="side-menu__main-menu--menu-item">
               <div className="side-menu__main-menu--menu-item__menu-icon">
-              <i className="bi bi-people"></i>
+              <i class="bi bi-eye"></i>
               </div>
-              <span>Registration</span>
+              <span>Data View</span>
               </NavLink>
-            </li>
-
-            <li>
-              <NavLink to="login" className="side-menu__main-menu--menu-item">
-              <div className="side-menu__main-menu--menu-item__menu-icon">
-              <i className="bi bi-file-earmark-lock2"></i>
-              </div>
-              <span>Login</span>
-              </NavLink>
-            </li>
+            </li> */}
           </ul>
   </div>;
 };

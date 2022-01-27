@@ -1,6 +1,6 @@
 import React, { useState} from "react";
-import { Button } from "react-bootstrap";
-import Modal from "./Modal";
+
+import DropDown from "./DropDown";
 import "./TopNav.css";
 
 
@@ -16,9 +16,9 @@ const TopNav = () => {
         <div className="topnav__color">
           <div className="topnav__content">
             
-         <Button onClick={()=> setShow(!show)} className="topnav__content--btn"><i class="bi bi-person-circle"></i></Button>
+         <button onClick={()=> setShow(!show)} className="topnav__content--btn"><i class="bi bi-person-circle"></i></button>
 
-        <Modal show={show}/>
+        <DropDown show={show}/>
            
           </div>
         </div>

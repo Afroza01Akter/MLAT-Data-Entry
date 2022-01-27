@@ -1,0 +1,70 @@
+.datainsert {
+    background: white;
+    box-shadow: 5px 5px 24px -1px #d1caca;
+    border-radius: 5px;
+}
+.datainsert__main-form {
+    padding: 90px;
+    
+}
+.datainsert__main-form form {
+    width: 88%;
+    margin: auto;
+    display: flex;
+}
+.datainsert__main-form--form-left {
+    width: 600px;
+    margin: 20px;
+}
+.datainsert__main-form--form-right {
+    width: 600px;
+    margin: 20px;
+}
+.datainsert__main-form--form-left input {
+    width: 100%;
+    height: 43px;
+    margin-top: 13px;
+    padding-left: 14px;
+    font-size: 15px;
+    border: 1px solid #9cdfb5;
+    border-radius: 7px;
+}
+.datainsert__main-form--form-right select {
+    width: 617px;
+    height: 43px;
+    margin-top: 13px;
+    padding-left: 14px;
+    font-size: 15px;
+    border: 1px solid #9cdfb5;
+    border-radius: 7px;
+}
+.datainsert__main-form--form-right input, textarea {
+    width: 100%;
+    height: 43px;
+    margin-top: 13px;
+    padding-left: 14px;
+    font-size: 15px;
+    border: 1px solid #9cdfb5;
+    border-radius: 7px;
+}
+.datainsert__main-form h2 {
+    text-align: center;
+    font-size: 32px;
+    color: #818582;
+    margin-bottom: 31px;
+}
+.datainsert__main-form__button button {
+    width: 100%;
+    height: 42px;
+    margin-top: 30px;
+    background: #25bb64;
+    border: none;
+    color: white;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.datainsert__main-form__button {
+    width: 46%;
+    margin: auto;
+}

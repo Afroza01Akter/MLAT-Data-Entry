@@ -1,0 +1,108 @@
+.login {
+  width: 100%;
+  display: flex;
+}
+.login__left {
+  margin: 30px;
+  background: white;
+  box-shadow: rgb(145 158 171 / 24%) 0px 0px 2px 0px,
+    rgb(145 158 171 / 24%) 0px 16px 32px -4px;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 464px;
+}
+.login__left--logo img {
+  width: 100%;
+  height: 100%;
+}
+.login__left--logo {
+  width: 40px;
+  height: 40px;
+  margin: 30px;
+}
+.login__left--content {
+  margin: 40px;
+}
+.login__left--content__image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.login__left--content__image {
+    margin-top: 60px;
+    margin-bottom: 186px;
+    width: 100%;
+    height: 100%;
+    max-width: 376px;
+    max-height: 407px;
+}
+.login__left--content h1 {
+  margin-top: 163px;
+}
+.login__right {
+    margin: 30px;
+    width: 1321px;
+}
+.login__right--right-link p a {
+    color: #2ec469;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+}
+.login__right--right-link {
+    text-align: right;
+    color: #4a4747;
+    font-size: 14px;
+}
+.login__right--content__form {
+    width: 40%;
+    margin: auto;
+}
+.login__right--content {
+    transform: translateY(50%);
+}
+.login__right--content__form--content p {
+    font-size: 16px;
+    color: #8b8989;
+    margin: 9px 0px 53px 0px;
+}
+.input {
+    height: 58px;
+    border: 1px solid #c6c5c5;
+    margin-bottom: 18px;
+    padding-left: 20px;
+    font-size: 17px;
+    border-radius: 10px;
+    width: 95%;
+}
+#checkbox {
+    width: 100%;
+    display: flex;
+}
+input#checkbox__color {
+    margin-right: 8px;
+}
+small#forgot a {
+    color: #2ec369;
+    font-weight: 700;
+    font-size: 15px;
+}
+small#forgot {
+    position: absolute;
+    right: 405px;
+}
+.form__button button a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 700;
+}
+.form__button button {
+    border-radius: 8px;
+    background-color: rgb(0, 171, 85);
+    width: 100%;
+    box-shadow: rgb(0 171 85 / 24%) 0px 8px 16px 0px;
+    height: 48px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border: none;
+    margin: 33px 0px 0px 0px;
+}

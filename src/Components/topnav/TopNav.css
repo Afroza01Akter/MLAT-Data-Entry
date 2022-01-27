@@ -73,7 +73,9 @@ button.topnav__content--btn {
     padding: 4px;
     border-radius: 5px;
     margin-bottom: 7px;
+    cursor: pointer;
 }
 .modal-footer {
     padding: 10px;
+    
 }

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Dashboard",
+    "to": "/main/dashboard",
+    "iconName": "bi bi-speedometer2"
+  },
+  {
+    "name": "Data Insert",
+    "to": "/main/datainsert",
+    "iconName": "bi bi-pie-chart"
+  },
+  {
+    "name": "Data View",
+    "to": "/main/dataview",
+    "iconName": "bi bi-eye"
+  }
+]

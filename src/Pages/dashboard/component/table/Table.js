@@ -4,18 +4,18 @@ import table from "../data/tabledata.json";
 
 const Table = () => {
   return (
-    <div>
+    <div className="table-whole">
       <div className="table">
         <div className="table__content">
           <table>
             <thead>
               <tr>
-              <th>Model</th>
-              <th>Typecode</th>
-              <th>SerialNumber</th>
-              <th>Registered</th>
-              <th>Category Description</th>
-              <th>Status</th>
+                <th>Model</th>
+                <th>Typecode</th>
+                <th>SerialNumber</th>
+                <th>Registered</th>
+                <th>Category Description</th>
+                <th>Status</th>
               </tr>
             </thead>
             <tbody>

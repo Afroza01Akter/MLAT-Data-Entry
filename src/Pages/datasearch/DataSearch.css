@@ -1,0 +1,34 @@
+.data-search {
+  background: white;
+  box-shadow: 5px 5px 24px -1px #d1caca;
+  border-radius: 5px;
+}
+.data-search__input input {
+  width: 20%;
+  padding-left: 10px;
+  font-size: 15px;
+  height: 29px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.data-search__input {
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+}
+.data-show {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 71px;
+}
+.data-show ul li {
+  padding: 0px 0px 9px 21px;
+  display: flex;
+}
+.data-show ul {
+  width: 396px;
+}
+.data-show ul li span {
+  color: #5fbfd6;
+  font-weight: 600;
+}

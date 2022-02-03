@@ -13,5 +13,11 @@
     "name": "Data View",
     "to": "/main/dataview",
     "iconName": "bi bi-eye"
+  },
+  {
+    "name": "Data Search",
+    "to": "/main/datasearch",
+    "iconName": "bi bi-search"
   }
+
 ]

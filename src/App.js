@@ -7,16 +7,11 @@ import Login from "./Pages/login/Login";
 import "./Components/sidebar/SideBar.css";
 import Registration from "./Pages/registration/Registration";
 import Main from "./Main";
-// import Maindashboard from "./Pages/dashboard/Maindashboard";
+
 
 function App() {
-  // const [inactive, setInactive] = useState(false);
   return (
     <div>
-      {/* <SideBar onCollapse={(inactive)=> {
-          // console.log(inactive);
-          setInactive(inactive);
-        }}/> */}
       <div>
         <Routes>
           <Route path="/" element={<Login />} />

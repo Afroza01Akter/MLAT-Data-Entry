@@ -9,6 +9,7 @@ const Login = () => {
   return (
     <div>
       <div className="login">
+        {/* // for Show image */}
         <div className="login__left">
           <div className="login__left--logo">
             <NavLink to="registration">
@@ -24,6 +25,7 @@ const Login = () => {
           </div>
         </div>
 
+        {/* // for Show form */}
         <div className="login__right">
           <div className="login__right--right-link">
             <p>
@@ -42,27 +44,42 @@ const Login = () => {
               <div className="login__right--content__form--main-form">
                 <Form>
                   <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Control className="input" type="email" placeholder="Enter email" />
+                    <Form.Control
+                      className="input"
+                      type="email"
+                      placeholder="Enter email"
+                    />
                   </Form.Group>
 
                   <Form.Group className="mb-3" controlId="formBasicPassword">
-                    <Form.Control className="input" type="password" placeholder="Password" />
+                    <Form.Control
+                      className="input"
+                      type="password"
+                      placeholder="Password"
+                    />
                   </Form.Group>
-                 <div id="checkbox">
-                 <Form.Group className="mb-3" controlId="formBasicCheckbox" id="checkbox">
-                    <Form.Check type="checkbox" label="Remember me" id="checkbox__color"/>
-                    <Form.Text className="text-muted" id="forgot">
-                      <NavLink to="main/dashboard">Forgot Password</NavLink>
-                    </Form.Text>
-                  </Form.Group>
-                 </div>
-                  
-                 <div className="form__button">
-                 <Button variant="primary" type="submit">
-                  <NavLink to="main/dashboard">Login</NavLink>
-                  </Button>
-                 </div>
-                  
+                  <div id="checkbox">
+                    <Form.Group
+                      className="mb-3"
+                      controlId="formBasicCheckbox"
+                      id="checkbox"
+                    >
+                      <Form.Check
+                        type="checkbox"
+                        label="Remember me"
+                        id="checkbox__color"
+                      />
+                      <Form.Text className="text-muted" id="forgot">
+                        <NavLink to="main/dashboard">Forgot Password</NavLink>
+                      </Form.Text>
+                    </Form.Group>
+                  </div>
+
+                  <div className="form__button">
+                    <Button variant="primary" type="submit">
+                      <NavLink to="main/dashboard">Login</NavLink>
+                    </Button>
+                  </div>
                 </Form>
               </div>
             </div>

@@ -1,19 +1,18 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./SideBar.css";
 import logo from "../../Assets/Images/logo/logo.svg";
 import MenuItem from "./MenuItem";
 import TopNav from "../topnav/TopNav";
 import Sidebardata from "./Sidebardata.json";
-// import { Link } from "react-router-dom";
+
 
 const SideBar = (props) => {
-  const [inactive, setInactive] = useState(false);
+  const [inactive, setInactive] = useState(false); // for active and inactive
 
-  props.onCollapse(inactive);
+  props.onCollapse(inactive); // for expand sidebar
 
   return (
     <div>
-       
       <div className={`side-menu ${inactive ? "inactive" : ""}`}>
         <div className="side-menu__top--section">
           <div className="side-menu__top--section__logo">

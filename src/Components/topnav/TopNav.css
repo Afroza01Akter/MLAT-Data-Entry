@@ -44,38 +44,37 @@ button.topnav__content--btn {
   transform: skew(43deg, -43deg);
 }
 .modal-head {
-    padding: 10px;
+  padding: 10px;
 }
 .modal-head p {
-    font-size: 13px;
-    color: #8d8a8a;
-    font-weight: 500;
+  font-size: 13px;
+  color: #8d8a8a;
+  font-weight: 500;
 }
 .modal-head h4 {
-    font-size: 14px;
+  font-size: 14px;
 }
 .modal-body ul li i {
-    padding-right: 9px;
-    font-size: 20px;
+  padding-right: 9px;
+  font-size: 20px;
 }
 .modal-body ul li {
-    font-size: 16px;
-    line-height: 27px;
+  font-size: 16px;
+  line-height: 27px;
 }
 .modal-body {
-    padding: 10px;
+  padding: 10px;
 }
 .modal-footer button {
-    width: 100%;
-    background: none;
-    border: 1px solid #c9c7c7;
-    font-size: 15px;
-    padding: 4px;
-    border-radius: 5px;
-    margin-bottom: 7px;
-    cursor: pointer;
+  width: 100%;
+  background: none;
+  border: 1px solid #c9c7c7;
+  font-size: 15px;
+  padding: 4px;
+  border-radius: 5px;
+  margin-bottom: 7px;
+  cursor: pointer;
 }
 .modal-footer {
-    padding: 10px;
-    
+  padding: 10px;
 }

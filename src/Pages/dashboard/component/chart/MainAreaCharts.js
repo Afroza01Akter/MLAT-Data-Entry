@@ -1,30 +1,7 @@
 import React from "react";
-// import {ResponsiveContainer, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend} from "recharts";
+
 import "./Chart.css";
 import Chart from "react-apexcharts";
-
-// const data =[
-//   {
-//     name: 'Java',
-//     student: 192,
-//     fees: 400
-//   },
-//   {
-//     name: 'JavaScript',
-//     student: 240,
-//     fees: 300
-//   },
-//   {
-//     name: 'HTML',
-//     student: 251,
-//     fees: 200
-//   },
-//   {
-//     name: 'CSS',
-//     student: 191,
-//     fees: 300
-//   },
-// ]
 
 const MainAreaCharts = () => {
   return (

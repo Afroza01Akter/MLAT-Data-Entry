@@ -1,0 +1,60 @@
+.dataview {
+  background: white;
+  box-shadow: 5px 5px 24px -1px #d1caca;
+  border-radius: 5px;
+}
+.dataview__content table {
+  border-collapse: collapse;
+  min-width: max-content;
+}
+.dataview__content td {
+  border-top: 1px solid #dddddd;
+  text-align: center;
+  padding: 14px;
+}
+.dataview__content th {
+  padding: 20px;
+}
+.dataview__content {
+  /* max-height: 300px; */
+  overflow-y: scroll;
+}
+ul.pagination {
+  display: flex;
+  justify-content: center;
+}
+ul.pagination li a {
+  text-decoration: none;
+  color: black;
+}
+ul.pagination li {
+  border: 1px solid #71dc99;
+  width: 29px;
+  text-align: center;
+  padding: 7px 0px 7px 0px;
+  margin-top: 30px;
+}
+nav.d-flex {
+  padding: 32px;
+}
+.filter h5 {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+.filter {
+  padding: 29px;
+  width: 20%;
+}
+.filter__button button {
+  width: 100px;
+  margin-right: 6px;
+  background: #f5feff;
+  border: 1px solid #39cb6f;
+  font-size: 15px;
+  height: 31px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.filter__button {
+  width: 100%;
+}

@@ -1,20 +1,20 @@
 .table {
-    background: white;
-    box-shadow: 5px 5px 24px -1px #d1caca;
-    border-radius: 5px;
-    width: 100%;
-    max-width: 1500px;
-    margin: 30px;
+  background: white;
+  box-shadow: 5px 5px 24px -1px #d1caca;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 1500px;
+  margin: 30px;
 }
 .table__content table {
-    border-collapse: collapse;
-    width: 100%;
+  border-collapse: collapse;
+  width: 100%;
 }
 .table__content td {
-    border-top: 1px solid #dddddd;
-    text-align: center;
-    padding: 14px;
+  border-top: 1px solid #dddddd;
+  text-align: center;
+  padding: 14px;
 }
 .table__content th {
-    padding: 14px;
+  padding: 14px;
 }
